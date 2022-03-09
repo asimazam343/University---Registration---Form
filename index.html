@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UniForm-Style.css" />
+
+</head>
+
+<style>
+    .grid > div{
+        background-color: beige;
+        padding: 10px;
+    }
+
+    .grid > div:nth-child(odd){
+        background-color: azure;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+</style>
+
+<body>
+
+    <div class="grid">
+        <div class="section" id="bottom">
+            <div class="side-nav">
+                <h2 style="color: white;">Dashboard</h2>
+                <div class="buttons">
+                    <button type="submit">CS Dept</button>
+                    <button type="submit">BI Dept</button>
+                    <button type="submit">English Dept</button>
+                    <button type="submit">LIS Dept</button>
+                    <button type="submit">Zoology Dept</button>
+                    <button type="submit">Psychlogy Dept</button>
+                    <button type="submit">Management Sciences Dept</button>
+                </div>
+                <div class="registered">
+                    <div class="box">
+                        <h3>Rejister Yourself Today</h3> <br>
+                        <p>This form is only for graduted students and it
+                            automatically be acessable when your gradution duraction completes.</p>
+                    </div>
+                    <button type="submit" id="login">Log in</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section" id="form-section">
+
+
+            <div class="header">
+                <h3>kkkuk <span style="color: #5a98db; font-weight:bold;">Graduated</span> Students Form</h3>
+                <hr>
+            </div>
+
+            <div class="body">
+                <label>First Name
+                    <input type="text">
+
+                    <label>Middle Name
+                        <input type="text">
+
+                        <label>Last Name
+                            <input type="text">
+                            <label> Addres
+                                <input type="text">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
